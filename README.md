@@ -28,7 +28,7 @@
 .ui　は　QT　で作成された本体  こちらは勝手に翻訳対象となる
 
 #### 2.日本語用の　.ts ファイルを作成する。  
-　lupdate  を使って，作成する。  
+ Design　Studio　から　lupdate  を呼び出して作成する。  
  が，Qt5ではうまく動作しない・・・これが問題か？
  なので，とりあえずQt6を選択！
  ![image](https://user-images.githubusercontent.com/86514652/179393972-4f460f7c-e45b-4560-8c4a-1dbcda31471b.png)
@@ -40,7 +40,7 @@
 ![image](https://user-images.githubusercontent.com/86514652/179394445-8857dbda-69b7-4198-8013-0639feebbcf5.png)
 
 #### 4..qmファイルに変換する。  
-　lrelease    を使って，作成する。
+ Design　Studio　から　lrelease  を呼び出して作成する。  
 ![image](https://user-images.githubusercontent.com/86514652/179394467-8504fd26-7a34-46ad-9859-b088edaddfcf.png)
 
 #### 5.実際に動くようにする。  
