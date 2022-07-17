@@ -7,12 +7,12 @@
 まじめに， Pythonで作成されたQGI　Pluginである。  
  
 #### 全体の流れ  
-0.環境構築  
+#### 0.環境構築  
 　[Qt]([https://www.qt.io/ja-jp/product/development-tools](https://www.qt.io/ja-jp/download-open-source))を手に入れる必要がある。 
  私は，趣味+オープンソースなので，「Qtオープンソース版」を選択。
  ![image](https://user-images.githubusercontent.com/86514652/179387559-5d1dee7a-26d8-492f-aebc-91234476bd5a.png)
 
-1..proファイルの編集
+#### 1..proファイルの編集
 　[Qt Linguist　マニュアル](https://doc.qt.io/qt-6/linguist-programmers.html)  によると， .pro ファイルを作れと書いてある！  
 　今回は，既存のファイルに日本語指定を行うので _ja.ts を追加，ついでに　.ui も追加した。  
 
@@ -23,15 +23,15 @@
 .ui　は　QT　で作成された本体  こちらは勝手に翻訳対象となる
 
 
-2.日本語用の　.ts ファイルを作成する。  
+#### 2.日本語用の　.ts ファイルを作成する。  
 　lupdate  を使って，作成する。
 ![image](https://user-images.githubusercontent.com/86514652/179388068-ea9163dd-8a45-416a-a42e-2df8737b10fb.png)
 
-3.翻訳作業
+#### 3.翻訳作業
  
 
-4..qmファイルに変換する。  
+#### 4..qmファイルに変換する。  
 　lrelease    を使って，作成する。
 
-4.実際に動くようにする。  
+#### 5.実際に動くようにする。  
 　たぶんここでコケている？  
