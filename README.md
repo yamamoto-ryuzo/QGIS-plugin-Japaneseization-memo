@@ -22,7 +22,7 @@
 　今回は，既存のファイルに日本語指定を行うので _ja.ts を追加，ついでに　.ui も追加した。  
 
 結果は「instantprint_ts.pro」の内容は  
-![image](https://user-images.githubusercontent.com/86514652/179393858-2d2eb7e5-64cc-47e1-905c-4f359961c6e9.png)
+![image](https://user-images.githubusercontent.com/86514652/179394298-96992633-390a-42d7-bda3-e22bfc84641e.png)
 
 .py の中で翻訳対象は　tr("QGIS-plugin-Japaneseization-memo")　と tr("") 　で翻訳対象を明示する必要がある  
 .ui　は　QT　で作成された本体  こちらは勝手に翻訳対象となる
