@@ -4,13 +4,15 @@
  　[Instant Print plugin for QGIS](https://github.com/sourcepole/qgis-instantprint-plugin)  
  　を例に日本語化のメモを残す！  
  
-まじめに， Pythonで作成されたQGI　Pluginである。  
+ このプラグインは Pythonで作成されている。  
  
-#### 全体の流れ  
-#### 0.環境構築  
-　[Qt]([https://www.qt.io/ja-jp/product/development-tools](https://www.qt.io/ja-jp/download-open-source))を手に入れる必要がある。 
+#### 0 .環境構築  
+##### 0-1.　ユーザーインターフェイスがQtなので，とりあえず [Qt]([https://www.qt.io/ja-jp/product/development-tools](https://www.qt.io/ja-jp/download-open-source))をインストール。 
  私は，趣味+オープンソースなので，「Qtオープンソース版」を選択。
- ![image](https://user-images.githubusercontent.com/86514652/179387559-5d1dee7a-26d8-492f-aebc-91234476bd5a.png)
+ ![image](https://user-images.githubusercontent.com/86514652/179387559-5d1dee7a-26d8-492f-aebc-91234476bd5a.png)  
+ 
+##### 0-2.翻訳用のアプリ　[Qt Linguist](https://download.qt.io/linguist_releases/)　をインストール。  
+![image](https://user-images.githubusercontent.com/86514652/179392618-a91e69d8-7e3d-4f6c-9b3e-0e63995316f7.png)  
 
 #### 1..proファイルの編集
 　[Qt Linguist　マニュアル](https://doc.qt.io/qt-6/linguist-programmers.html)  によると， .pro ファイルを作れと書いてある！  
@@ -28,6 +30,7 @@
 ![image](https://user-images.githubusercontent.com/86514652/179388068-ea9163dd-8a45-416a-a42e-2df8737b10fb.png)
 
 #### 3.翻訳作業
+ 作成された.tsファイルをLinguistで翻訳  
  
 
 #### 4..qmファイルに変換する。  
