@@ -44,4 +44,4 @@
 ![image](https://user-images.githubusercontent.com/86514652/179394467-8504fd26-7a34-46ad-9859-b088edaddfcf.png)
 
 #### 5.実際に動くようにする。  
-　たぶんここでコケている？  
+pyrcc5 -o resources_rc.py resources.qrc
