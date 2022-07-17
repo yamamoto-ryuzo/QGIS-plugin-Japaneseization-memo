@@ -54,3 +54,4 @@ pyrcc5 -o resources_rc.py resources.qrc
 　このパターンの翻訳方法がわからない・・・現在調査中  
   Py変換は　pyuic5　コマンドを利用する。  
   が作成された翻訳対象の文字は　tr() ではなく　_translate() となる。  
+  Qt5なので　https://www.riverbankcomputing.com/static/Docs/PyQt5/introduction.html#pyqt5-components　を確認  
