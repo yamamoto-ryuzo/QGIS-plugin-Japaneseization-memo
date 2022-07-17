@@ -7,8 +7,8 @@
  このプラグインは Pythonで作成されている。  
  
 #### 0 .環境構築  
-##### 0-1.　ユーザーインターフェイスがQtなので，とりあえず [Qt]([https://www.qt.io/ja-jp/product/development-tools](https://www.qt.io/ja-jp/download-open-source))をインストール。 
- 私は，趣味+オープンソースなので，「Qtオープンソース版」を選択。
+##### 0-1.　ユーザーインターフェイスがQtなので，とりあえず [Qt](https://www.qt.io/ja-jp/download-open-source)をインストール。 
+ 私は，趣味+オープンソースなので，[Qtオープンソース版](https://www.qt.io/ja-jp/download-open-source)を選択。
  ![image](https://user-images.githubusercontent.com/86514652/179387559-5d1dee7a-26d8-492f-aebc-91234476bd5a.png)  
  
 ##### 0-2.翻訳用のアプリ　[Qt Linguist](https://download.qt.io/linguist_releases/)　をインストール。  
