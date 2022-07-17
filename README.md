@@ -37,10 +37,11 @@
 
 #### 3.翻訳作業
  作成された.tsファイルをLinguistで翻訳  
- 
+![image](https://user-images.githubusercontent.com/86514652/179394445-8857dbda-69b7-4198-8013-0639feebbcf5.png)
 
 #### 4..qmファイルに変換する。  
 　lrelease    を使って，作成する。
+![image](https://user-images.githubusercontent.com/86514652/179394467-8504fd26-7a34-46ad-9859-b088edaddfcf.png)
 
 #### 5.実際に動くようにする。  
 　たぶんここでコケている？  
