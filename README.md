@@ -1,1 +1,1 @@
-# QGIS-plugin-Japaneseization-memo
+# QGISプラグイン日本語化メモ  
