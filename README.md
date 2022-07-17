@@ -53,4 +53,4 @@ pyrcc5 -o resources_rc.py resources.qrc
  6-2.UIをpy変換して利用する  
 　このパターンの翻訳方法がわからない・・・現在調査中  
   Py変換は　pyuic5　コマンドを利用する。  
-  が作成された翻訳対象の文字は　tr() ではなく　_translate となる。  
+  が作成された翻訳対象の文字は　tr() ではなく　_translate() となる。  
