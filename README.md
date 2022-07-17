@@ -33,7 +33,7 @@
  なので，とりあえずQt6を選択！
  ![image](https://user-images.githubusercontent.com/86514652/179393972-4f460f7c-e45b-4560-8c4a-1dbcda31471b.png)
 　そして，変換実行
- ![image](https://user-images.githubusercontent.com/86514652/179393878-dcae42bb-7d45-48c9-b2c4-77f49106db1d.png)
+![image](https://user-images.githubusercontent.com/86514652/179394332-bc7e2850-6c65-4007-9b10-a9a95a8df156.png)
 
 #### 3.翻訳作業
  作成された.tsファイルをLinguistで翻訳  
